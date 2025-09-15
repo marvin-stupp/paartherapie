@@ -3,181 +3,139 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Praxis Schwermer - Systemische Aufstellungen</title>
+    <title>Familien- und Paartherapie Köln</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" xintegrity="sha512-Fo3rlrZj/k7Tj0JkH9Lg4rD8M1GzP5w05t9W1t/8bK7qNl4t9W1q4T1xTfA+gM7u2FqE3P2I4cE+eH+gJ+n8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7f7f7;
-            color: #333;
+            background-color: #f7fafc;
         }
     </style>
 </head>
-<body class="bg-gray-50">
+<body class="bg-gray-50 text-gray-800">
 
-    <!-- Header Section -->
-    <header class="bg-white shadow-md rounded-b-xl">
-        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
-            <div class="text-2xl font-bold text-gray-800">
-                <a href="#home">Praxis Schwermer</a>
+    <!-- Header / Navigation -->
+    <header class="bg-blue-600 text-white p-4 shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto flex justify-between items-center flex-wrap">
+            <a href="#" class="text-xl md:text-2xl font-bold tracking-tight">
+                Familien- und Paartherapie Köln
+            </a>
+            <div class="hidden md:flex space-x-6 lg:space-x-8">
+                <a href="#about" class="hover:text-gray-200 transition-colors">Über uns</a>
+                <a href="#services" class="hover:text-gray-200 transition-colors">Unsere Angebote</a>
+                <a href="#contact" class="hover:text-gray-200 transition-colors">Kontakt</a>
             </div>
-            <nav class="mt-4 md:mt-0">
-                <ul class="flex space-x-6 text-gray-600">
-                    <li><a href="#paartherapie" class="hover:text-teal-600 font-semibold transition-colors duration-300">Paartherapie</a></li>
-                    <li><a href="#familientherapie" class="hover:text-teal-600 font-semibold transition-colors duration-300">Familientherapie</a></li>
-                    <li><a href="#seminar" class="hover:text-teal-600 font-semibold transition-colors duration-300">Seminar</a></li>
-                    <li><a href="#kontakt" class="hover:text-teal-600 font-semibold transition-colors duration-300">Kontakt</a></li>
-                </ul>
-            </nav>
-        </div>
+        </nav>
     </header>
 
-    <main class="container mx-auto px-4 py-8">
+    <!-- Hero Section -->
+    <section class="bg-blue-500 text-white py-20 px-4 text-center">
+        <div class="container mx-auto">
+            <h1 class="text-3xl md:text-5xl font-extrabold mb-4 leading-tight">
+                Gemeinsam wachsen. Beziehungen stärken.
+            </h1>
+            <p class="text-lg md:text-xl max-w-2xl mx-auto mb-8">
+                Wir begleiten Paare und Familien dabei, Konflikte zu lösen, Vertrauen wiederherzustellen und neue Wege der Kommunikation zu finden.
+            </p>
+            <a href="#contact" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-full shadow-lg transition-transform transform hover:scale-105">
+                Kontakt aufnehmen
+            </a>
+        </div>
+    </section>
 
-        <!-- Paartherapie Section -->
-        <section id="paartherapie" class="bg-white p-8 rounded-2xl shadow-lg my-8">
-            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Paartherapie mit doppelter Kompetenz</h2>
-            <div class="prose max-w-none">
-                <p class="text-lg text-gray-600 text-center mb-6">
-                    Unsere Therapie richtet sich an Paare und Familien, die sich in einer schwierigen Phase befinden und bereit sind, aktiv an ihrer Beziehung zu arbeiten.
-                </p>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Warum zwei Therapeut:innen?</h3>
-                        <p>
-                            Unser Doppel-Setting ist unser Alleinstellungsmerkmal und bietet Ihnen einen klaren Mehrwert: Ausgewogenheit durch ein männliches und weibliches Team, das sicherstellt, dass beide Seiten angemessen repräsentiert und verstanden werden. Unsere gebündelte, langjährige Erfahrung ermöglicht es uns, auch komplexe Themen professionell zu beleuchten.
-                        </p>
-                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Was Sie bei uns erwartet</h3>
-                        <ul class="list-disc list-inside space-y-2">
-                            <li><strong>Zwei Therapeut:innen:</strong> Ein weibliches und ein männliches Gegenüber, die beide Seiten in den Fokus rücken.</li>
-                            <li><strong>Samstagstermine möglich:</strong> Wir bieten unsere Sitzungen auch samstags an.</li>
-                            <li><strong>Ausreichend Zeit:</strong> Eine Sitzung dauert in der Regel zwei Stunden.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was ist Paartherapie?</h3>
-                        <p>
-                            Paartherapie bietet einen geschützten Raum, in dem Sie und Ihr:e Partner:in offen über Ihre Probleme sprechen können. Unter Anleitung von professionellen Therapeut:innen geht es darum, die Kommunikation zu verbessern, tieferliegende Konflikte zu verstehen und gemeinsam neue Lösungsansätze zu entwickeln.
-                        </p>
-                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Organisatorisches</h3>
-                        <p class="mb-2"><strong>Dauer und Häufigkeit:</strong> 2 Stunden, unter der Woche oder samstags.</p>
-                        <p><strong>Kosten:</strong> 280 Euro pro zweistündiger Sitzung mit zwei Therapeut:innen.</p>
-                        <div class="mt-8 text-center">
-                            <a href="#kontakt" class="inline-block bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-700 transition-colors duration-300">
-                                Jetzt Kennenlerntermin vereinbaren
-                            </a>
-                        </div>
-                    </div>
+    <!-- About Us Section -->
+    <section id="about" class="py-16 px-4">
+        <div class="container mx-auto max-w-4xl bg-white p-8 md:p-12 rounded-lg shadow-lg">
+            <h2 class="text-2xl md:text-4xl font-bold text-center mb-6 text-blue-600">Über uns</h2>
+            <p class="text-lg text-gray-600 mb-6">
+                Unsere Praxis steht für systemische Therapie mit Herz und doppelter Kompetenz. Als DGSF-zertifizierte Therapeuten bieten wir Ihnen einen sicheren Raum, um Ihre Anliegen zu besprechen. Wir glauben daran, dass jede Beziehung das Potenzial hat, sich zu entwickeln und zu heilen.
+            </p>
+            <p class="text-lg text-gray-600">
+                Unsere Arbeit basiert auf einem ganzheitlichen Ansatz, der nicht nur die Probleme betrachtet, sondern auch die Stärken und Ressourcen von Ihnen als Individuen und als System.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="bg-gray-100 py-16 px-4">
+        <div class="container mx-auto">
+            <h2 class="text-2xl md:text-4xl font-bold text-center mb-12 text-blue-600">Unsere Angebote</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                <!-- Paartherapie -->
+                <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-4 text-blue-600">Paartherapie</h3>
+                    <p class="text-gray-600 mb-4">
+                        Wenn Sie das Gefühl haben, in denselben Konflikten festzustecken, die Kommunikation stockt oder Vertrauen verloren gegangen ist, helfen wir Ihnen, wieder zueinanderzufinden.
+                    </p>
+                    <ul class="text-left text-gray-500 list-disc list-inside">
+                        <li>Kommunikationsprobleme</li>
+                        <li>Wiederkehrende Streitereien</li>
+                        <li>Umgang mit Eifersucht oder Untreue</li>
+                        <li>Vorbereitung auf die Ehe</li>
+                    </ul>
+                </div>
+
+                <!-- Familientherapie -->
+                <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-4 text-blue-600">Familientherapie</h3>
+                    <p class="text-gray-600 mb-4">
+                        Ob in Patchwork-Familien oder bei generationsübergreifenden Konflikten – wir unterstützen Sie dabei, gesunde Beziehungen innerhalb Ihrer Familie aufzubauen.
+                    </p>
+                    <ul class="text-left text-gray-500 list-disc list-inside">
+                        <li>Konflikte in Patchwork-Familien</li>
+                        <li>Verständnis zwischen Eltern und Kindern</li>
+                        <li>Umgang mit Veränderungen</li>
+                        <li>Stärkung des Familienzusammenhalts</li>
+                    </ul>
+                </div>
+
+                <!-- Systemaufstellungen -->
+                <div class="bg-white p-8 rounded-lg shadow-lg flex flex-col items-center text-center">
+                    <h3 class="text-xl md:text-2xl font-semibold mb-4 text-blue-600">Systemaufstellungen</h3>
+                    <p class="text-gray-600 mb-4">
+                        Muster und Dynamiken, die oft unbewusst in der Familie wirken, sichtbar machen und lösen, um einen neuen, freieren Weg zu gehen.
+                    </p>
+                    <ul class="text-left text-gray-500 list-disc list-inside">
+                        <li>Transgenerationale Traumata</li>
+                        <li>Unerklärliche Verhaltensweisen</li>
+                        <li>Rollenverteilungen in der Familie</li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Familientherapie Section -->
-        <section id="familientherapie" class="bg-white p-8 rounded-2xl shadow-lg my-8">
-            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Familientherapie mit dreifacher Kompetenz</h2>
-            <div class="prose max-w-none">
-                <p class="text-lg text-gray-600 text-center mb-6">
-                    Familientherapie ist für alle Familien, Paare oder auch Einzelpersonen geeignet, deren Probleme im familiären Kontext liegen.
-                </p>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Für wen ist unser Angebot geeignet?</h3>
-                        <p>
-                            Besonders hilfreich bei wiederkehrenden Konflikten, Schwierigkeiten bei der Erziehung, Herausforderungen in Patchwork- oder Stieffamilien sowie Krisen wie Trennung oder Krankheit. Wir begleiten Sie dabei, als Familie wieder zusammenzuwachsen.
-                        </p>
-                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Was Sie bei uns erwartet</h3>
-                        <ul class="list-disc list-inside space-y-2">
-                            <li><strong>Zwei Therapeut:innen:</strong> Ein sich abwechselndes Team, das die vielschichtigen Beziehungen und Rollen in Ihrer Familie in den Fokus rückt.</li>
-                            <li><strong>Samstagstermine möglich:</strong> Wir bieten Sitzungen auch samstags an, um Ihren Zeitplan zu berücksichtigen.</li>
-                            <li><strong>Ausreichend Zeit:</strong> Eine Sitzung dauert in der Regel zwei Stunden.</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was ist systemische Familientherapie?</h3>
-                        <p>
-                            Systemische Familientherapie betrachtet die Familie als ein System, in dem alle Mitglieder durch Beziehungen und Interaktionen miteinander verbunden sind. Ziel ist es, die Muster und Regeln zu erkennen und neue, gesündere Wege des Miteinanders zu finden.
-                        </p>
-                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Organisatorisches</h3>
-                        <p class="mb-2"><strong>Dauer und Häufigkeit:</strong> 2 Stunden, unter der Woche oder samstags.</p>
-                        <p><strong>Kosten:</strong> 280 Euro pro zweistündiger Sitzung mit zwei Therapeut:innen.</p>
-                        <div class="mt-8 text-center">
-                            <a href="#kontakt" class="inline-block bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-700 transition-colors duration-300">
-                                Bereit für eine Veränderung? Kontaktieren Sie uns!
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Seminar Section -->
-        <section id="seminar" class="bg-white p-8 rounded-2xl shadow-lg my-8">
-            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Seminar: Familiengeschichte neu schreiben</h2>
-            <div class="prose max-w-none">
-                <p class="text-lg text-gray-600 text-center mb-6">
-                    In diesem Seminar erforschen Sie, wie Ihre Herkunft Ihre eigenen Erziehungsstile prägt.
-                </p>
-                <div class="grid md:grid-cols-2 gap-8">
-                    <div>
-                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was Sie erwartet</h3>
-                        <p>
-                            Wir arbeiten nach den Prinzipien der systemischen Familientherapie und helfen Ihnen, unbewusste Verhaltensmuster zu erkennen und zu durchbrechen. Das Seminar ist ein intensiver Halbjahreskurs in einem kleinen, vertrauten Teilnehmerkreis (max. 8 Personen).
-                        </p>
-                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Die Module</h3>
-                        <p>
-                            Wir decken Themen ab wie das Sichtbarmachen der Familiengeschichte, das Erkennen von Stärken und Schutzstrategien, das Hinterfragen von Glaubenssätzen und die Entwicklung neuer Perspektiven für sich selbst und Ihre Kinder.
-                        </p>
-                    </div>
-                    <div>
-                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was ist transgenerationale Arbeit?</h3>
-                        <p>
-                            Transgenerationale Arbeit beschäftigt sich mit den unsichtbaren Fäden, die uns mit den Generationen vor uns verbinden. Das Ziel ist es, diese unbewussten Übertragungen sichtbar zu machen und sich von belastenden Erbschaften zu lösen, um einen gesunden, freien Weg für sich und seine Kinder zu ebnen.
-                        </p>
-                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Organisatorisches</h3>
-                        <p class="mb-2"><strong>Dauer:</strong> 6 Module, 2 Stunden pro Sitzung, an Samstagen von 10:00 - 12:00 Uhr.</p>
-                        <p class="mb-2"><strong>Kosten:</strong> 390 Euro pro Person für das gesamte Seminar.</p>
-                        <p><strong>Teilnehmerkreis:</strong> Maximal 8 Personen.</p>
-                        <div class="mt-8 text-center">
-                            <a href="#kontakt" class="inline-block bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-700 transition-colors duration-300">
-                                Familiengeschichte neu schreiben
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- About and Contact Section -->
-        <section id="kontakt" class="bg-white p-8 rounded-2xl shadow-lg my-8">
-            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Kontakt</h2>
-            <div class="prose max-w-none text-center">
-                <p class="text-lg text-gray-600 mb-4">
-                    Bereit für einen neuen Anfang? Kontaktieren Sie uns gerne für ein erstes Kennenlernen oder weitere Informationen.
-                </p>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 px-4">
+        <div class="container mx-auto max-w-4xl bg-blue-600 text-white p-8 md:p-12 rounded-lg shadow-lg">
+            <h2 class="text-2xl md:text-4xl font-bold text-center mb-6">Kontakt</h2>
+            <p class="text-lg text-center mb-8">
+                Bereit, Ihre Geschichte neu zu schreiben? Kontaktieren Sie uns gerne für ein unverbindliches Erstgespräch.
+            </p>
+            <div class="flex flex-col md:flex-row justify-center items-center space-y-4 md:space-y-0 md:space-x-8">
                 <div class="text-center">
-                    <p class="text-xl font-semibold text-gray-800">Therapeut:innen:</p>
-                    <p class="text-lg text-gray-700 mt-2">
-                        Dr. phil. Michaela Schwermer <br/>
-                        Dr. phil. Christoph Schwermer <br/>
-                        Petra Schwermer
-                    </p>
-                    <p class="text-lg text-gray-700 mt-4">
-                        <i class="fas fa-phone-alt text-teal-600"></i> Telefon: +49 (0) 123 456789 <br/>
-                        <i class="fas fa-envelope text-teal-600"></i> E-Mail: info@praxis-schwermer.de
-                    </p>
+                    <h4 class="font-semibold text-lg">E-Mail</h4>
+                    <a href="mailto:info@familien-therapie-koeln.de" class="text-blue-200 hover:text-white transition-colors">
+                        info@familien-therapie-koeln.de
+                    </a>
+                </div>
+                <div class="text-center">
+                    <h4 class="font-semibold text-lg">Telefon</h4>
+                    <a href="tel:+492211234567" class="text-blue-200 hover:text-white transition-colors">
+                        +49 (0) 221 123 4567
+                    </a>
                 </div>
             </div>
-        </section>
-
-    </main>
+        </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center py-6 rounded-t-xl">
-        <div class="container mx-auto">
-            <p>&copy; 2024 Praxis Schwermer. Alle Rechte vorbehalten.</p>
-        </div>
+    <footer class="bg-gray-800 text-white py-6 text-center text-sm">
+        <p>&copy; 2025 Familien- und Paartherapie Köln. Alle Rechte vorbehalten.</p>
     </footer>
 
 </body>
