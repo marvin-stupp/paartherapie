@@ -1,167 +1,182 @@
 <!DOCTYPE html>
-<html lang="de" class="scroll-smooth">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paartherapie: Stärkung der Beziehung</title>
-    <!-- Inter Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <!-- Tailwind CSS -->
+    <title>Praxis Schwermer - Systemische Aufstellungen</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" xintegrity="sha512-Fo3rlrZj/k7Tj0JkH9Lg4rD8M1GzP5w05t9W1t/8bK7qNl4t9W1q4T1xTfA+gM7u2FqE3P2I4cE+eH+gJ+n8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
         body {
             font-family: 'Inter', sans-serif;
-            background-color: #f7fee7; /* Lime-50 */
+            background-color: #f7f7f7;
+            color: #333;
         }
     </style>
 </head>
-<body class="text-gray-800">
+<body class="bg-gray-50">
 
-    <!-- Hero Section -->
-    <header class="relative bg-gradient-to-r from-emerald-600 to-green-800 text-white py-20 lg:py-32">
-        <div class="container mx-auto px-4 text-center">
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold mb-4 tracking-tight leading-tight drop-shadow-lg">
-                Paartherapie
-            </h1>
-            <p class="text-lg sm:text-xl lg:text-2xl mb-8 drop-shadow-md max-w-2xl mx-auto">
-                Gemeinsam neue Wege finden.
-            </p>
-            <a href="#angebot" class="bg-white text-emerald-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1">
-                Mehr erfahren
-            </a>
+    <!-- Header Section -->
+    <header class="bg-white shadow-md rounded-b-xl">
+        <div class="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-between items-center">
+            <div class="text-2xl font-bold text-gray-800">
+                <a href="#home">Praxis Schwermer</a>
+            </div>
+            <nav class="mt-4 md:mt-0">
+                <ul class="flex space-x-6 text-gray-600">
+                    <li><a href="#paartherapie" class="hover:text-teal-600 font-semibold transition-colors duration-300">Paartherapie</a></li>
+                    <li><a href="#familientherapie" class="hover:text-teal-600 font-semibold transition-colors duration-300">Familientherapie</a></li>
+                    <li><a href="#seminar" class="hover:text-teal-600 font-semibold transition-colors duration-300">Seminar</a></li>
+                    <li><a href="#kontakt" class="hover:text-teal-600 font-semibold transition-colors duration-300">Kontakt</a></li>
+                </ul>
+            </nav>
         </div>
     </header>
 
-    <!-- About Section -->
-    <section id="ueber-uns" class="py-16 md:py-24">
-        <div class="container mx-auto px-4 max-w-4xl text-center">
-            <h2 class="text-3xl sm:text-4xl font-bold mb-6 text-green-800">Unser Angebot für Paare</h2>
-            <p class="text-lg leading-relaxed text-gray-600 mb-8">
-                Jede Beziehung durchläuft Höhen und Tiefen. Manchmal benötigen Paare Unterstützung, um Missverständnisse zu klären, die Kommunikation zu verbessern und die Verbindung wiederherzustellen. In der Paartherapie bieten wir einen geschützten Raum, um gemeinsam an Ihren Herausforderungen zu arbeiten.
-            </p>
-            <p class="text-lg leading-relaxed text-gray-600">
-                Unsere systemische Herangehensweise betrachtet die Dynamik Ihrer Beziehung und hilft, Muster zu erkennen und zu verändern, damit Sie wieder als Team agieren können. Ein einzigartiger Vorteil unseres Angebots ist die Begleitung durch einen weiblichen und einen männlichen Therapeuten, was eine umfassende und ausgewogene Perspektive auf Ihre Beziehung ermöglicht.
-            </p>
-        </div>
-    </section>
+    <main class="container mx-auto px-4 py-8">
 
-    <!-- Program Details Section -->
-    <section id="angebot" class="bg-lime-50 py-16 md:py-24">
-        <div class="container mx-auto px-4">
-            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-12 text-green-800">Details zum Angebot</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-                <!-- Session Duration Card -->
-                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-                    <span class="text-4xl text-emerald-600 mb-4 inline-block">&#128337;</span>
-                    <h3 class="text-xl font-semibold mb-2">Dauer</h3>
-                    <p class="text-gray-600">
-                        50 Minuten pro Sitzung.
-                    </p>
+        <!-- Paartherapie Section -->
+        <section id="paartherapie" class="bg-white p-8 rounded-2xl shadow-lg my-8">
+            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Paartherapie mit doppelter Kompetenz</h2>
+            <div class="prose max-w-none">
+                <p class="text-lg text-gray-600 text-center mb-6">
+                    Unsere Therapie richtet sich an Paare und Familien, die sich in einer schwierigen Phase befinden und bereit sind, aktiv an ihrer Beziehung zu arbeiten.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Warum zwei Therapeut:innen?</h3>
+                        <p>
+                            Unser Doppel-Setting ist unser Alleinstellungsmerkmal und bietet Ihnen einen klaren Mehrwert: Ausgewogenheit durch ein männliches und weibliches Team, das sicherstellt, dass beide Seiten angemessen repräsentiert und verstanden werden. Unsere gebündelte, langjährige Erfahrung ermöglicht es uns, auch komplexe Themen professionell zu beleuchten.
+                        </p>
+                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Was Sie bei uns erwartet</h3>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Zwei Therapeut:innen:</strong> Ein weibliches und ein männliches Gegenüber, die beide Seiten in den Fokus rücken.</li>
+                            <li><strong>Samstagstermine möglich:</strong> Wir bieten unsere Sitzungen auch samstags an.</li>
+                            <li><strong>Ausreichend Zeit:</strong> Eine Sitzung dauert in der Regel zwei Stunden.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was ist Paartherapie?</h3>
+                        <p>
+                            Paartherapie bietet einen geschützten Raum, in dem Sie und Ihr:e Partner:in offen über Ihre Probleme sprechen können. Unter Anleitung von professionellen Therapeut:innen geht es darum, die Kommunikation zu verbessern, tieferliegende Konflikte zu verstehen und gemeinsam neue Lösungsansätze zu entwickeln.
+                        </p>
+                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Organisatorisches</h3>
+                        <p class="mb-2"><strong>Dauer und Häufigkeit:</strong> 2 Stunden, unter der Woche oder samstags.</p>
+                        <p><strong>Kosten:</strong> 280 Euro pro zweistündiger Sitzung mit zwei Therapeut:innen.</p>
+                        <div class="mt-8 text-center">
+                            <a href="#kontakt" class="inline-block bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-700 transition-colors duration-300">
+                                Jetzt Kennenlerntermin vereinbaren
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- Price Card -->
-                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-                    <span class="text-4xl text-emerald-600 mb-4 inline-block">&#128181;</span>
-                    <h3 class="text-xl font-semibold mb-2">Preis</h3>
-                    <p class="text-gray-600">
-                        190 € pro Sitzung.
-                    </p>
+            </div>
+        </section>
+
+        <!-- Familientherapie Section -->
+        <section id="familientherapie" class="bg-white p-8 rounded-2xl shadow-lg my-8">
+            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Familientherapie mit dreifacher Kompetenz</h2>
+            <div class="prose max-w-none">
+                <p class="text-lg text-gray-600 text-center mb-6">
+                    Familientherapie ist für alle Familien, Paare oder auch Einzelpersonen geeignet, deren Probleme im familiären Kontext liegen.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Für wen ist unser Angebot geeignet?</h3>
+                        <p>
+                            Besonders hilfreich bei wiederkehrenden Konflikten, Schwierigkeiten bei der Erziehung, Herausforderungen in Patchwork- oder Stieffamilien sowie Krisen wie Trennung oder Krankheit. Wir begleiten Sie dabei, als Familie wieder zusammenzuwachsen.
+                        </p>
+                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Was Sie bei uns erwartet</h3>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Zwei Therapeut:innen:</strong> Ein sich abwechselndes Team, das die vielschichtigen Beziehungen und Rollen in Ihrer Familie in den Fokus rückt.</li>
+                            <li><strong>Samstagstermine möglich:</strong> Wir bieten Sitzungen auch samstags an, um Ihren Zeitplan zu berücksichtigen.</li>
+                            <li><strong>Ausreichend Zeit:</strong> Eine Sitzung dauert in der Regel zwei Stunden.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was ist systemische Familientherapie?</h3>
+                        <p>
+                            Systemische Familientherapie betrachtet die Familie als ein System, in dem alle Mitglieder durch Beziehungen und Interaktionen miteinander verbunden sind. Ziel ist es, die Muster und Regeln zu erkennen und neue, gesündere Wege des Miteinanders zu finden.
+                        </p>
+                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Organisatorisches</h3>
+                        <p class="mb-2"><strong>Dauer und Häufigkeit:</strong> 2 Stunden, unter der Woche oder samstags.</p>
+                        <p><strong>Kosten:</strong> 280 Euro pro zweistündiger Sitzung mit zwei Therapeut:innen.</p>
+                        <div class="mt-8 text-center">
+                            <a href="#kontakt" class="inline-block bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-700 transition-colors duration-300">
+                                Bereit für eine Veränderung? Kontaktieren Sie uns!
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- Location Card -->
-                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-                    <span class="text-4xl text-emerald-600 mb-4 inline-block">&#127968;</span>
-                    <h3 class="text-xl font-semibold mb-2">Praxis</h3>
-                    <p class="text-gray-600">
-                        Laurentiusstraße 73, 51465 Bergisch Gladbach.
-                    </p>
+            </div>
+        </section>
+
+        <!-- Seminar Section -->
+        <section id="seminar" class="bg-white p-8 rounded-2xl shadow-lg my-8">
+            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Seminar: Familiengeschichte neu schreiben</h2>
+            <div class="prose max-w-none">
+                <p class="text-lg text-gray-600 text-center mb-6">
+                    In diesem Seminar erforschen Sie, wie Ihre Herkunft Ihre eigenen Erziehungsstile prägt.
+                </p>
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was Sie erwartet</h3>
+                        <p>
+                            Wir arbeiten nach den Prinzipien der systemischen Familientherapie und helfen Ihnen, unbewusste Verhaltensmuster zu erkennen und zu durchbrechen. Das Seminar ist ein intensiver Halbjahreskurs in einem kleinen, vertrauten Teilnehmerkreis (max. 8 Personen).
+                        </p>
+                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Die Module</h3>
+                        <p>
+                            Wir decken Themen ab wie das Sichtbarmachen der Familiengeschichte, das Erkennen von Stärken und Schutzstrategien, das Hinterfragen von Glaubenssätzen und die Entwicklung neuer Perspektiven für sich selbst und Ihre Kinder.
+                        </p>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-semibold text-teal-600 mb-3">Was ist transgenerationale Arbeit?</h3>
+                        <p>
+                            Transgenerationale Arbeit beschäftigt sich mit den unsichtbaren Fäden, die uns mit den Generationen vor uns verbinden. Das Ziel ist es, diese unbewussten Übertragungen sichtbar zu machen und sich von belastenden Erbschaften zu lösen, um einen gesunden, freien Weg für sich und seine Kinder zu ebnen.
+                        </p>
+                        <h3 class="text-2xl font-semibold text-teal-600 mt-6 mb-3">Organisatorisches</h3>
+                        <p class="mb-2"><strong>Dauer:</strong> 6 Module, 2 Stunden pro Sitzung, an Samstagen von 10:00 - 12:00 Uhr.</p>
+                        <p class="mb-2"><strong>Kosten:</strong> 390 Euro pro Person für das gesamte Seminar.</p>
+                        <p><strong>Teilnehmerkreis:</strong> Maximal 8 Personen.</p>
+                        <div class="mt-8 text-center">
+                            <a href="#kontakt" class="inline-block bg-teal-600 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-700 transition-colors duration-300">
+                                Familiengeschichte neu schreiben
+                            </a>
+                        </div>
+                    </div>
                 </div>
-                <!-- Therapists Card -->
-                <div class="bg-white p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 text-center">
-                    <span class="text-4xl text-emerald-600 mb-4 inline-block">&#128105;&#128104;</span>
-                    <h3 class="text-xl font-semibold mb-2">Therapeuten</h3>
-                    <p class="text-gray-600">
-                        Larissa Stupp & Tobias Brand
+            </div>
+        </section>
+
+        <!-- About and Contact Section -->
+        <section id="kontakt" class="bg-white p-8 rounded-2xl shadow-lg my-8">
+            <h2 class="text-4xl font-bold text-center text-teal-700 mb-6">Kontakt</h2>
+            <div class="prose max-w-none text-center">
+                <p class="text-lg text-gray-600 mb-4">
+                    Bereit für einen neuen Anfang? Kontaktieren Sie uns gerne für ein erstes Kennenlernen oder weitere Informationen.
+                </p>
+                <div class="text-center">
+                    <p class="text-xl font-semibold text-gray-800">Therapeut:innen:</p>
+                    <p class="text-lg text-gray-700 mt-2">
+                        Dr. phil. Michaela Schwermer <br/>
+                        Dr. phil. Christoph Schwermer <br/>
+                        Petra Schwermer
+                    </p>
+                    <p class="text-lg text-gray-700 mt-4">
+                        <i class="fas fa-phone-alt text-teal-600"></i> Telefon: +49 (0) 123 456789 <br/>
+                        <i class="fas fa-envelope text-teal-600"></i> E-Mail: info@praxis-schwermer.de
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Methods Section -->
-    <section id="methoden" class="py-16 md:py-24">
-        <div class="container mx-auto px-4 max-w-4xl">
-            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-6 text-green-800">Unsere Methoden</h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
-                <!-- Generations Compass -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <h3 class="text-2xl font-semibold mb-4 text-emerald-600">Systemische Paartherapie</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Die systemische Paartherapie konzentriert sich auf die Dynamik der Beziehung und nicht nur auf die einzelnen Personen. Wir helfen Ihnen, die gegenseitige Abhängigkeit und die Kommunikationsmuster zu verstehen, die Ihre Beziehung beeinflussen. Unser Ziel ist es, Sie dabei zu unterstützen, einander besser zuzuhören, Gefühle auszudrücken und gemeinsam Lösungen zu finden.
-                    </p>
-                </div>
-                <!-- Communication Training -->
-                <div class="bg-white p-8 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300">
-                    <h3 class="text-2xl font-semibold mb-4 text-emerald-600">Kommunikationstraining</h3>
-                    <p class="text-gray-600 leading-relaxed">
-                        Wir vermitteln Ihnen praktische Werkzeuge und Techniken, um Ihre Kommunikationsfähigkeiten zu verbessern. Dazu gehören aktives Zuhören, der Umgang mit Konflikten und das Verhindern von Missverständnissen. Dies schafft eine solide Grundlage für Vertrauen und Intimität in Ihrer Beziehung.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Group Leaders Section -->
-    <section id="leitung" class="bg-lime-50 py-16 md:py-24">
-        <div class="container mx-auto px-4 max-w-4xl">
-            <h2 class="text-3xl sm:text-4xl font-bold text-center mb-6 text-green-800">Ihre Therapeuten</h2>
-            <p class="text-center text-lg text-gray-600 mb-12">
-                Dieses Angebot wird von Larissa Stupp und Tobias Brand geleitet, einem erfahrenen Therapeuten-Paar. Ihre Zusammenarbeit als männlicher und weiblicher Therapeut ermöglicht es, die verschiedenen Dynamiken und Kommunikationsstile innerhalb einer Partnerschaft aus beiden Perspektiven zu beleuchten.
-            </p>
-            <div class="flex flex-col md:flex-row items-center justify-center gap-12">
-                <!-- Leader 1 -->
-                <div class="bg-white p-6 rounded-xl shadow-lg text-center max-w-sm w-full">
-                    <img src="https://placehold.co/150x150/dcfce7/10b981?text=Larissa" alt="Bild von Larissa Stupp" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
-                    <h3 class="text-xl font-semibold text-emerald-600 mb-1">Larissa Stupp</h3>
-                    <p class="text-gray-500 mb-4">Kindheitspädagogin & Systemische Therapeutin</p>
-                    <p class="text-gray-600 text-sm">
-                        Als Kindheitspädagogin und systemische Therapeutin bringt Larissa eine feine Sensibilität für emotionale Beziehungsdynamiken und familiäre Muster mit. Ihre weibliche Perspektive ist besonders wertvoll, um empathisch auf die emotionalen Bedürfnisse einzugehen und einen Raum für tiefere Gefühle zu schaffen.
-                    </p>
-                </div>
-                <!-- Leader 2 -->
-                <div class="bg-white p-6 rounded-xl shadow-lg text-center max-w-sm w-full">
-                    <img src="https://placehold.co/150x150/dcfce7/10b981?text=Tobias" alt="Bild von Tobias Brand" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover">
-                    <h3 class="text-xl font-semibold text-emerald-600 mb-1">Tobias Brand</h3>
-                    <p class="text-gray-500 mb-4">Sport- und Sozialwissenschaftler & Lehrer</p>
-                    <p class="text-gray-600 text-sm">
-                        Mit seiner Expertise als Sport- und Sozialwissenschaftler und Systemischer Therapeut liegt Tobias' Stärke in der Analyse von Kommunikationsstrukturen. Seine männliche Perspektive hilft, Konfliktlösungen pragmatisch zu gestalten und neue, handlungsorientierte Wege für eine bessere Zusammenarbeit zu entwickeln.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Call to Action Section -->
-    <section id="kontakt" class="bg-emerald-600 text-white py-16 md:py-24">
-        <div class="container mx-auto px-4 max-w-3xl text-center">
-            <h2 class="text-3xl sm:text-4xl font-bold mb-6">Sind Sie bereit, Ihre Beziehung zu stärken?</h2>
-            <p class="text-lg mb-8 leading-relaxed">
-                Melden Sie sich jetzt für ein Erstgespräch an oder kontaktieren Sie uns für weitere Informationen.
-            </p>
-            <a href="#" class="bg-white text-emerald-600 font-bold py-3 px-8 rounded-full shadow-lg hover:bg-gray-100 transition-all duration-300 transform hover:-translate-y-1">
-                Jetzt anmelden
-            </a>
-        </div>
-    </section>
+    </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 text-gray-300 py-8">
-        <div class="container mx-auto px-4 text-center text-sm">
-            <p>&copy; 2023 Paartherapie. Alle Rechte vorbehalten.</p>
-            <p class="mt-2">
-                <a href="#" class="hover:text-white transition-colors duration-300">Impressum</a> | 
-                <a href="#" class="hover:text-white transition-colors duration-300">Datenschutz</a>
-            </p>
+    <footer class="bg-gray-800 text-white text-center py-6 rounded-t-xl">
+        <div class="container mx-auto">
+            <p>&copy; 2024 Praxis Schwermer. Alle Rechte vorbehalten.</p>
         </div>
     </footer>
 
